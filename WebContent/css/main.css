@@ -1,0 +1,143 @@
+@charset "ISO-8859-1";
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;  
+  width: 50%;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 20px; 
+  
+}
+
+table tbody tr:nth-child(even){background-color: #f2f2f2;}
+
+table tbody tr:hover {background-color: #ddd;}
+
+table th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: left;
+  background-color: #595e99;
+  color: white;
+}
+
+.otsikko{
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;	
+	text-align: center;	
+	color: #d6cf5f;
+}
+
+.oikealle{
+	text-align: right;	
+	
+}
+
+/* Geneerisen buttonin muotoilu*/
+.button {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+/* leve‰n buttonin muotoilu*/
+/* Suurempi levys, hitusen isompi fontti*/
+.buttonwide {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 64px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.buttonwide:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.buttonwide:active {
+	position:relative;
+	top:1px;
+}
+
+/* Poista(del) buttonin muotoilu*/
+/* Punaisen s‰vy. Hover effekti kirkas puna */
+.buttondel {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #d44c4c 5%, #408c99 100%);
+	background-color:#d44c4c;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:8px 17px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.buttondel:hover {
+	background:linear-gradient(to bottom, #ff0000 5%, #d44c4c 100%);
+	background-color:#ff0000;
+}
+.buttondel:active {
+	position:relative;
+	top:1px;
+}
+
+/* Lis‰‰(add) buttonin muotoilu*/
+/* Hieman suurempi nappi. Vihers‰vyinen. Hover effekti kirkkkaampi vihre‰ s‰vy */
+.buttonadd {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #3ead5c 5%, #408c99 100%);
+	background-color:#3ead5c;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.buttonadd:hover {
+	background:linear-gradient(to bottom, #0cf00c 5%, #599bb3 100%);
+	background-color:#0cf00c;
+}
+.buttonadd:active {
+	position:relative;
+	top:1px;
+}
+
+
